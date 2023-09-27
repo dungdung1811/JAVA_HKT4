@@ -13,15 +13,13 @@ public class BookManagement {
         int choice;
         do {
             System.out.println("***********************MENU**************************");
-            System.out.println("1. Nhập thông tin n sản phẩm (n nhập từ bàn phím)");
-            System.out.println("2. Hiển thị thông tin các sản phẩm");
-            System.out.println("3. Tính lợi nhuận các sản phẩm");
-            System.out.println("4. Sắp xếp các sản phẩm theo lợi nhuận giảm dần");
-            System.out.println("5. Thống kê các sản phẩm theo giá");
-            System.out.println("6. Tìm các sản phẩm theo tên sản phẩm");
-            System.out.println("7. Nhập sản phẩm");
-            System.out.println("8. Bán sản phẩm");
-            System.out.println("0. Thoát");
+            System.out.println("1. Nhập số lượng sách thêm mới và nhập thông tin cho từng cuốn sách)");
+            System.out.println("2. Hiển thị thông tin tất cả sách trong thư viện");
+            System.out.println("3. Sắp xếp sách theo lợi nhuận tăng dần");
+            System.out.println("4. Xóa sách theo mã sách");
+            System.out.println("5. Tìm kiếm tương đối sách theo tên sách hoặc mô tả");
+            System.out.println("6. Thay đổi thông tin sách theo mã sách ");
+            System.out.println("7. Thoát");
             System.out.print("Nhập lựa chọn của bạn: ");
             choice = scanner.nextInt();
             scanner.nextLine(); // Đọc dòng trống
@@ -125,3 +123,7 @@ public class BookManagement {
 
 
 }
+
+
+
+
